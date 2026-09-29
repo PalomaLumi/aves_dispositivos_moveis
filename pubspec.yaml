@@ -1,0 +1,24 @@
+name: censo_aves_flutter
+description: Protótipo Flutter para censo de aves marinhas em campanhas embarcadas.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.5
+  geolocator: ^14.0.3
+  flutter_map: ^8.3.1
+  latlong2: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
